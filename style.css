@@ -42,72 +42,21 @@ header nav a:hover {
     background: #555; /* Slightly lighter gray on hover */
 }
 
-/* Home Section */
-#home {
+/* Section Styles */
+section {
     padding: 2rem;
-    text-align: center;
-}
-
-/* Portfolio Section */
-#portfolio {
-    padding: 2rem;
-    text-align: center;
-    background: #fff; /* White background for contrast */
-}
-
-/* About Section */
-#about {
-    padding: 2rem;
-    text-align: center;
     background: #fff; /* White background for contrast */
     margin: 2rem 0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#about h2, #about p {
+section h2 {
     color: #333; /* Dark gray text */
 }
 
-/* Shop Section */
-#shop {
-    padding: 2rem;
-    text-align: center;
-    background: #fff; /* White background for contrast */
-    margin: 2rem 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#shop h2 {
-    color: #333; /* Dark gray text */
-}
-
-#shop p {
+section p {
     color: #666; /* Medium gray text for description */
-}
-
-/* Contact Section */
-#contact {
-    padding: 2rem;
-    text-align: center;
-    background: #fff; /* White background for contrast */
-    margin: 2rem 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#contact h2, #contact p {
-    color: #333; /* Dark gray text */
-}
-
-#contact a {
-    color: #333; /* Dark gray links */
-    text-decoration: none;
-}
-
-#contact a:hover {
-    text-decoration: underline;
 }
 
 /* Footer */
