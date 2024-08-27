@@ -69,6 +69,24 @@ header nav a:hover {
     color: #333; /* Dark gray text */
 }
 
+/* Shop Section */
+#shop {
+    padding: 2rem;
+    text-align: center;
+    background: #fff; /* White background for contrast */
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#shop h2 {
+    color: #333; /* Dark gray text */
+}
+
+#shop p {
+    color: #666; /* Medium gray text for description */
+}
+
 /* Contact Section */
 #contact {
     padding: 2rem;
