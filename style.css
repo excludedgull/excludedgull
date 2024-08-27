@@ -10,12 +10,12 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #e0f7fa; /* Baby Blue background */
+    background-color: #fff; /* White background */
 }
 
 /* Header */
 header {
-    background: #ff4081; /* Hot Pink background */
+    background: #000; /* Black background */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -39,32 +39,13 @@ header nav a {
 }
 
 header nav a:hover {
-    background: #c51162; /* Darker Hot Pink on hover */
+    background: #555; /* Dark gray on hover */
 }
 
 /* Home Section */
 #home {
     padding: 2rem;
     text-align: center;
-}
-
-#home .image-gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-#home .image-gallery img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
-
-#home .image-gallery img:hover {
-    transform: scale(1.05);
 }
 
 /* Portfolio Section */
@@ -78,14 +59,14 @@ header nav a:hover {
 #about {
     padding: 2rem;
     text-align: center;
-    background: #ffebee; /* Light Pink background */
+    background: #f9f9f9; /* Light gray background */
     margin: 2rem 0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #about h2, #about p {
-    color: #ff4081; /* Hot Pink text */
+    color: #000; /* Black text */
 }
 
 /* Contact Section */
@@ -99,11 +80,11 @@ header nav a:hover {
 }
 
 #contact h2, #contact p {
-    color: #ff4081; /* Hot Pink text */
+    color: #000; /* Black text */
 }
 
 #contact a {
-    color: #ff4081; /* Hot Pink links */
+    color: #000; /* Black links */
     text-decoration: none;
 }
 
@@ -113,7 +94,7 @@ header nav a:hover {
 
 /* Footer */
 footer {
-    background: #ff4081; /* Hot Pink background */
+    background: #000; /* Black background */
     color: #fff;
     text-align: center;
     padding: 1rem 0;
