@@ -1,10 +1,15 @@
-// Initialize cart as an empty array
-let cart = [];
+// Initialize cart from localStorage or as an empty array
+let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+// Function to save cart to localStorage
+function saveCart() {
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
 
 // Function to add a product to the cart
 function addToCart(product) {
     cart.push(product);
-    console.log('Product added to cart:', product);
+    saveCart();
     updateCartDisplay();
 }
 
@@ -44,11 +49,32 @@ document.querySelectorAll('.product-item button').forEach(button => {
 
 // Example function to handle checkout
 function handleCheckout() {
-    // Here you would typically handle the checkout process
+    // Process checkout, e.g., send cart data to server
     console.log('Checkout with cart:', cart);
-    cart = []; // Clear cart after checkout
-    updateCartDisplay();
+
+    // Example: Sending cart data to a server endpoint
+    fetch('/checkout', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(cart)
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Checkout response:', data);
+        // Clear cart after successful checkout
+        cart = [];
+        saveCart();
+        updateCartDisplay();
+    })
+    .catch(error => {
+        console.error('Checkout error:', error);
+    });
 }
 
 // Add event listener to checkout button
 document.querySelector('#checkout-button')?.addEventListener('click', handleCheckout);
+
+// Update cart display on page load
+updateCartDisplay();
