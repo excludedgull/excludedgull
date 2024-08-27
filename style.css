@@ -98,4 +98,26 @@ header nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#contact h2,
+#contact h2, #contact p {
+    color: #ff4081; /* Hot Pink text */
+}
+
+#contact a {
+    color: #ff4081; /* Hot Pink links */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #ff4081; /* Hot Pink background */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
