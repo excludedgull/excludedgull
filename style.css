@@ -42,10 +42,6 @@ header nav a:hover {
     text-align: center;
 }
 
-#home .intro {
-    margin-bottom: 2rem;
-}
-
 #home .image-gallery {
     display: flex;
     justify-content: center;
@@ -63,6 +59,21 @@ header nav a:hover {
 
 #home .image-gallery img:hover {
     transform: scale(1.05);
+}
+
+/* About Section */
+#about {
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #666;
 }
 
 /* Footer */
