@@ -9,13 +9,13 @@ body, h1, h2, p {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #fff; /* White background */
+    color: #333; /* Dark gray text */
+    background-color: #f4f4f4; /* Light gray background */
 }
 
 /* Header */
 header {
-    background: #000; /* Black background */
+    background: #333; /* Dark gray background */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -39,7 +39,7 @@ header nav a {
 }
 
 header nav a:hover {
-    background: #555; /* Dark gray on hover */
+    background: #555; /* Slightly lighter gray on hover */
 }
 
 /* Home Section */
@@ -52,39 +52,39 @@ header nav a:hover {
 #portfolio {
     padding: 2rem;
     text-align: center;
-    background: #fff;
+    background: #fff; /* White background for contrast */
 }
 
 /* About Section */
 #about {
     padding: 2rem;
     text-align: center;
-    background: #f9f9f9; /* Light gray background */
+    background: #fff; /* White background for contrast */
     margin: 2rem 0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #about h2, #about p {
-    color: #000; /* Black text */
+    color: #333; /* Dark gray text */
 }
 
 /* Contact Section */
 #contact {
     padding: 2rem;
     text-align: center;
-    background: #fff;
+    background: #fff; /* White background for contrast */
     margin: 2rem 0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #contact h2, #contact p {
-    color: #000; /* Black text */
+    color: #333; /* Dark gray text */
 }
 
 #contact a {
-    color: #000; /* Black links */
+    color: #333; /* Dark gray links */
     text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ header nav a:hover {
 
 /* Footer */
 footer {
-    background: #000; /* Black background */
+    background: #333; /* Dark gray background */
     color: #fff;
     text-align: center;
     padding: 1rem 0;
